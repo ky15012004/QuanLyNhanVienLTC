@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "Chỉnh sửa nhân viên";
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Cập nhật nhân viên</h2>
+
+    <div class="card shadow p-4 mx-auto" style="width: 900px;">
+        <form id="editEmployeeForm" enctype="multipart/form-data" method="post" action="@Url.Action("Edit", "Employee")">
+            <input type="hidden" name="Id_224" value="@Model.Id_224" /> <!-- Giữ ID của nhân viên để chỉnh sửa -->
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="fullName" class="form-label">Họ tên</label>
+                    <input type="text" class="form-control" id="fullName" name="Name_224" value="@Model.Name_224" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email_224" value="@Model.email_224" required>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="phone" class="form-label">Số điện thoại</label>
+                    <input type="text" class="form-control" name="phone_224" value="@Model.phone_224" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="department" class="form-label">Phòng ban</label>
+                    <select class="form-select" id="department" name="departmentId_224" required>
+                        <option value="" disabled>-- Chọn phòng ban --</option>
+                        @foreach (var department in ViewBag.ListDepartment)
+                        {
+                            <option value="@department.id_224" @(department.id_224 == Model.departmentId_224 ? "selected" : "")>@department.name_224</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="position" class="form-label">Chức vụ</label>
+                    <input type="text" class="form-control" name="position_224" value="@Model.position_224" required>
+                </div>
+                <div class="col-md-4">
+                    @if (!string.IsNullOrEmpty(Model.imageUrl_224))
+                    {
+                        <img id="previewImage" src="@Model.imageUrl_224" alt="Ảnh xem trước" class="img-thumbnail mt-2" width="250" style="height:200px" />
+                    }
+                    else
+                    {
+                        <img id="previewImage" src="#" alt="Ảnh xem trước" class="img-thumbnail mt-2 d-none" width="250" style="height:200px"/>
+                    }
+                </div>
+            </div>
+
+            @*<div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="image" class="form-label">Ảnh đại diện</label>
+                    <input type="file" class="form-control" id="imageUrl_224" name="imageFile" accept="image/*">
+                </div>
+            </div>*@
+
+            <div class="d-flex justify-content-end mt-4">
+                <a href="/Employee/Index" class="btn btn-secondary me-2">Huỷ</a>
+                <button type="submit" class="btn btn-primary">Lưu</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    document.getElementById("imageUrl_224").addEventListener("change", function () {
+        const file = this.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const img = document.getElementById("previewImage");
+                img.src = e.target.result;
+                img.classList.remove("d-none");
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

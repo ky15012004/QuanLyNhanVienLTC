@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@foreach(ProjectASP01.Models.department dp in ViewBag.departments)
+    {
+        <h3>@dp.names</h3>
+    }

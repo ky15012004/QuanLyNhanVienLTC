@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\models\\request\\employeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\models\\request\\employeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\models\\departmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\models\\departmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\views\\employee\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\views\\employee\\confirmdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\views\\employee\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|c:\\users\\lengo\\onedrive\\desktop\\nguyenphuocky_22224\\projectasp01\\projectasp01\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDF46EB-AB0D-4345-978E-1872AD47A941}|ProjectASP01\\ProjectASP01.csproj|solutionrelative:projectasp01\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectASP01\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "ProjectASP01\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T02:20:52.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "ProjectASP01\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "ProjectASP01\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T02:20:05.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "ProjectASP01\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "ProjectASP01\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T02:20:15.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Models\\Request\\EmployeeRequest.cs",
+              "RelativeDocumentMoniker": "ProjectASP01\\Models\\Request\\EmployeeRequest.cs",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Models\\Request\\EmployeeRequest.cs",
+              "RelativeToolTip": "ProjectASP01\\Models\\Request\\EmployeeRequest.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T02:19:59.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentModel.cs",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Models\\DepartmentModel.cs",
+              "RelativeDocumentMoniker": "ProjectASP01\\Models\\DepartmentModel.cs",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Models\\DepartmentModel.cs",
+              "RelativeToolTip": "ProjectASP01\\Models\\DepartmentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T02:19:51.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "ProjectASP01\\Models\\EmployeeModel.cs",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "ProjectASP01\\Models\\EmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T02:19:53.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjectASP01\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "ProjectASP01\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T02:20:51.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProjectASP01\\Views\\Employee\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "ProjectASP01\\Views\\Employee\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T02:20:49.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfirmDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Employee\\ConfirmDelete.cshtml",
+              "RelativeDocumentMoniker": "ProjectASP01\\Views\\Employee\\ConfirmDelete.cshtml",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Employee\\ConfirmDelete.cshtml",
+              "RelativeToolTip": "ProjectASP01\\Views\\Employee\\ConfirmDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T02:20:48.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Employee\\Add.cshtml",
+              "RelativeDocumentMoniker": "ProjectASP01\\Views\\Employee\\Add.cshtml",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Employee\\Add.cshtml",
+              "RelativeToolTip": "ProjectASP01\\Views\\Employee\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T02:20:46.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Department\\Add.cshtml",
+              "RelativeDocumentMoniker": "ProjectASP01\\Views\\Department\\Add.cshtml",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Department\\Add.cshtml",
+              "RelativeToolTip": "ProjectASP01\\Views\\Department\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T02:20:26.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectASP01\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "ProjectASP01\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T02:20:29.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "ProjectASP01\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\lengo\\OneDrive\\Desktop\\NguyenPhuocKy_22224\\ProjectASP01\\ProjectASP01\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "ProjectASP01\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T02:19:37.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    int totalPage = ViewBag.TotalPage;
+    int currentPage = ViewBag.CurrentPage;
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<style>
+    th {
+        font-weight: 500;
+    }
+</style>
+
+<div class="container">
+    <h2 class="mb-4">Danh sách nhân viên</h2>
+
+    <!-- Search and Filter -->
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <input type="text" id="searchInput" class="form-control" placeholder="Tìm kiếm theo tên...">
+        </div>
+        <div class="col-md-3">
+            <select id="departmentFilter" class="form-select">
+                <option value="0">Tất cả phòng ban</option>
+
+                @foreach (ProjectASP01.Models.DepartmentModel department in ViewBag.ListDepartment)
+                {
+                    <option value="@department.id_224">@department.name_224</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-3 d-flex justify-content-end">
+            <a href="/Employee/Add" class="btn btn-success ml-auto">Thêm nhân viên</a>
+        </div>
+    </div>
+
+    <!-- Table -->
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Mã NV</th>
+                <th>Họ tên</th>
+                <th>Vị trí</th>
+                <th>Email</th>
+                <th>Phòng ban</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody id="employeeTableBody">
+            @foreach (ProjectASP01.Models.EmployeeModel employee in ViewBag.ListEmployee)
+            {
+                <tr>
+                    <th>@employee.Id_224</th>
+                    <th>@employee.Name_224</th>
+                    <th>@employee.position_224</th>
+                    <th>@employee.email_224</th>
+                    <th>@employee.departmentName</th>
+                    <th>
+                        <a class="btn btn-success" href="/Employee/Details/@employee.Id_224">Xem chi tiết</a>
+                        <a class="btn btn-warning text-white" href="/Employee/Edit/@employee.Id_224">Sửa</a>
+                        <a href="/Employee/ConfirmDelete/@employee.Id_224" class="btn btn-danger">Xóa</a>
+                    </th>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Pagination -->
+    <nav>
+        <ul class="pagination justify-content-end" id="pagination">
+            <!-- Phân trang sẽ được thêm bằng JS -->
+        </ul>
+    </nav>
+</div>
+
+<script>
+    let currentPage = @currentPage || 1;
+    const rowsPerPage = 5;
+
+    renderPagination(@totalPage);
+
+    function renderPagination(totalItems) {
+      const totalPages = Math.ceil(totalItems / rowsPerPage);
+      const pagination = document.getElementById("pagination");
+      pagination.innerHTML = "";
+
+      for (let i = 1; i <= totalPages; i++) {
+        const li = document.createElement("li");
+        li.className = "page-item" + (i === currentPage ? " active" : "");
+          li.innerHTML = `<a class="page-link" href="/Employee/Index/${i}">${i}</a>`;
+        li.addEventListener("click", (e) => {
+          currentPage = i;
+        });
+        pagination.appendChild(li);
+      }
+    }
+    let search = ""
+    document.getElementById("searchInput").addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault(); // Ngăn không cho form submit (nếu có)
+            updateUrlAndSearch();
+        }
+    });
+
+    document.getElementById("departmentFilter").addEventListener("change", () => {
+        updateUrlAndSearch();
+    });
+
+    function updateUrlAndSearch() {
+        let searchTerm = document.getElementById("searchInput").value.trim(); // Lấy từ khóa tìm kiếm
+        let department = document.getElementById("departmentFilter").value;   // Lấy bộ lọc phòng ban
+
+        window.location.href = `/Employee/Index?page=${currentPage}&searchTerm=${encodeURIComponent(searchTerm)}&department=${encodeURIComponent(department)}`;
+    }
+    window.onload = function () {
+        // Lấy các tham số từ URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const department = urlParams.get('department');
+
+        // Set selected cho dropdown nếu có tham số department
+        if (department) {
+            const selectElement = document.getElementById("departmentFilter");
+            for (let option of selectElement.options) {
+                if (option.value === department) {
+                    option.selected = true;  // Set selected cho option tương ứng
+                }
+            }
+        }
+    };
+
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+

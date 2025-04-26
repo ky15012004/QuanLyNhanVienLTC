@@ -1,0 +1,21 @@
+﻿
+@model ProjectASP01.Models.EmployeeModel
+
+@{
+    ViewBag.Title = "Xác nhận xóa nhân viên";
+}
+
+<div class="d-flex justify-content-center align-items-center" style="width:100vw; height:50vh;">
+    <div class="p-4 card shadow">
+        <h2>Xác nhận xóa nhân viên</h2>
+
+        <p>Bạn có chắc chắn muốn xóa nhân viên <strong>@Model.Name_224</strong> không?</p>
+
+        <form method="post" action="@Url.Action("Delete", "Employee", new { id = Model.Id_224 })">
+            <button type="submit" class="btn btn-danger">Xóa</button>
+            <a href="@Url.Action("Index")" class="btn btn-secondary">Hủy</a>
+        </form>
+    </div>
+</div>
+
+

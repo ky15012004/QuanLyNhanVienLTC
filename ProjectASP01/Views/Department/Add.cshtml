@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Thêm phòng ban mới</h2>
+
+    <div class="card shadow p-4">
+        <form id="addDepartmentForm">
+            <div class="mb-3">
+                <label for="departmentName" class="form-label">Tên phòng ban</label>
+                <input type="text" class="form-control" id="departmentName" required placeholder="Nhập tên phòng ban">
+            </div>
+
+            <div class="mb-3">
+                <label for="managerName" class="form-label">Trưởng phòng</label>
+                <input type="text" class="form-control" id="managerName" placeholder="Nhập tên trưởng phòng (nếu có)">
+            </div>
+
+            <div class="mb-3">
+                <label for="description" class="form-label">Mô tả</label>
+                <textarea class="form-control" id="description" rows="3" placeholder="Thông tin mô tả phòng ban (nếu có)"></textarea>
+            </div>
+
+            <div class="d-flex justify-content-end mt-4">
+                <button type="reset" class="btn btn-secondary me-2">Huỷ</button>
+                <button type="submit" class="btn btn-primary">Lưu</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Toast thông báo -->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="toastSuccess" class="toast align-items-center text-bg-success border-0" role="alert">
+        <div class="d-flex">
+            <div class="toast-body">
+                ✅ Phòng ban đã được thêm thành công!
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const form = document.getElementById("addDepartmentForm");
+    const toastEl = document.getElementById("toastSuccess");
+    const toast = new bootstrap.Toast(toastEl);
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      // Giả lập xử lý thêm phòng ban
+      setTimeout(() => {
+        toast.show();
+        form.reset();
+      }, 300);
+    });
+</script>
